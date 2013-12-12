@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+<!-- Copyright (C) 2012-2013 The MXSeñorPato Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -242,7 +242,7 @@
 
     <!-- Waiver -->
     <string name="cyanogenmod_waiver_title">Waiver</string>
-    <string name="cyanogenmod_waiver_body">Changing this setting may be against your state or government laws.\n\nIn selecting \'OK\' below, you acknowledge this warning and waive, indemnify and hold harmless CyanogenMod and its contributors from all legal liabilities.</string>
+    <string name="cyanogenmod_waiver_body">Changing this setting may be against your state or government laws.\n\nIn selecting \'OK\' below, you acknowledge this warning and waive, indemnify and hold harmless MXSeñorPato and its contributors from all legal liabilities.</string>
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Quick Settings panel</string>
@@ -417,24 +417,31 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
 
     <!-- About phone screen,  setting option name -->
-    <string name="mod_version">CyanogenMod version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version">MXSeñorPato™ version</string>
+    <string name="mod_version_default">MX Yuki™ Unknow</string>
+    <string name="dev_xpe">Developer of XPerience™</string>
+    <string name="xda_dev">Developer on XDA </string>
+    <string name="gpu_info">GPU </string>
+    <string name="gpu_info_default">GPU UNKNOW </string>
+    <string name="chip_cpu">CPU chipset </string>
+    <string name="chip_cpu_default">Chipset UNKNOW</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
-    <string name="build_date_default" translatable="false">2012-01-01-0000</string>
+    <string name="build_date_default" translatable="false">2013-12-20-0000</string>
     <!-- About device screen, Cpu info -->
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
+
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">CyanogenMod statistics</string>
-    <string name="anonymous_statistics_summary">Help make CyanogenMod better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">MXSeñorPato statistics</string>
+    <string name="anonymous_statistics_summary">Help make MXSeñorPato better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into CyanogenMod Statistics will allow non-personal data to be submitted to the
-        developers of CyanogenMod to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into MXSeñorPato Statistics will allow non-personal data to be submitted to the
+        developers of MXSeñorPato to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -443,7 +450,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable CyanogenMod Statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable MXSeñorPato Statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
@@ -522,7 +529,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="changelog_version">Version</string>
 
     <!-- CM Updater -->
-    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+    <string name="cmupdate_settings_title">MXSeñorPato updates</string>
     <string name="cmupdate_settings_summary">Check for, view or install available updates</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
