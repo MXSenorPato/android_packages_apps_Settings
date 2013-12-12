@@ -4629,4 +4629,9 @@
     <string name="regulatory_info_text"></string>
     <!-- Roaming Date Settings -->
     <string name="label_global_roaming_settings">Global roaming settings</string>
+    
+        <!-- Xperience Klozz TeamMEX @XDA-Developers -->
+        <string name="header_category_xperience">XPerience™</string>
+    <string name="xpe_settings_title">XPerience™ Settings Ops</string>
+        <string name="builder_info_title"> Developer XPerience™ </string>
 </resources>
