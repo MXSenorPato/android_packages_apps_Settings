@@ -71,6 +71,10 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_CM_UPDATES = "cm_updates";
+    private static final String KEY_XPE_DEV = "dev_xpe";
+    private static final String KEY_XDA_DEV = "xda_dev";
+    private static final String KEY_GPU_INF = "gpu_inf";
+    private static final String KEY_CPU_CHIP = "chip_cpu";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
     long[] mHits = new long[3];
@@ -100,8 +104,12 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
-        setValueSummary(KEY_MOD_VERSION, "ro.cm.version");
+        setValueSummary(KEY_MOD_VERSION, "ro.mx.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
+        setValueSummary(KEY_XPE_DEV, "ro.developer.xpe");
+        setValueSummary(KEY_XDA_DEV, "ro.xda.name");
+        setValueSummary(KEY_GPU_INF, "ro.device.gpu");
+        setValueSummary(KEY_CPU_CHIP, "ro.device.chipset");
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
 
         if (!SELinux.isSELinuxEnabled()) {
