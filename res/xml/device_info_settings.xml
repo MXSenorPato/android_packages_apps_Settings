@@ -154,7 +154,7 @@
                 android:summary="@string/device_info_default"/>
 
         <!-- Device CPU CHipset -->
-        <Preference android:key="gpu_inf"
+        <Preference android:key="chip_cpu"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/chip_cpu"
                 android:summary="@string/chip_cpu_default"/>
